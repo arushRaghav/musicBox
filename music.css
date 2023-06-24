@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: url(dry-rose-geb662748e_1920.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.place{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+
+.pl1,.pl2{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.con,.text{
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.con{
+    background-color: aqua;
+    opacity: 25%;
+    transition: all 0.5s;
+}
+
+.text{
+    opacity: 100%;
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    font-weight: bold;
+    z-index: 1;
+    position: relative;
+    top: -150px;
+    font-family: 'Dancing Script', cursive;
+    padding: 30px;
+}
+
+.playing{
+    border: 2px solid red;
+    box-shadow: 0 0 40px rgb(45, 223, 255);
+    opacity: 60%;
+}
